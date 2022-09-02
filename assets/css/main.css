@@ -1786,3 +1786,17 @@ input, select, textarea {
 		.contact-info a:hover{
 			color: 	#ff5d86;
 		}
+
+		.flexed-list{
+			display:flex;
+			list-style-type: none;
+			justify-content: center;
+		}
+
+		.flexed-list li{
+			margin:auto;
+		}
+
+		.flexed-list h2{
+			display: inline;
+		}
