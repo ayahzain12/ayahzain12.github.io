@@ -1800,3 +1800,9 @@ input, select, textarea {
 		.flexed-list h2{
 			display: inline;
 		}
+
+		::selection, ::-moz-selection{
+			background:none;
+			color:#ff5d86;
+		}
+		
