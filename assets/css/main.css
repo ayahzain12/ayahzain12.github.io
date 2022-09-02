@@ -1762,6 +1762,31 @@ input, select, textarea {
 	
 		}
 
+		.contact-info a:hover{
+			color: 	#ff5d86;
+		}
+
+		.flexed-list{
+			display:flex;
+			list-style-type: none;
+			/*justify-content: center;*/
+		}
+
+		.flexed-list li{
+			margin:auto;
+		}
+
+		.flexed-list h2{
+			display: inline;
+		}
+
+		::selection, ::-moz-selection{
+			background:none;
+			color:#ff5d86;
+		}
+
+
+
 		@media only screen and (max-width: 576px) {
 			.contact-info ul{
 				width:150px;
@@ -1780,29 +1805,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.flexed-list{
+				font-size:12pt;
+			}
+
 			
 		}
 
-		.contact-info a:hover{
-			color: 	#ff5d86;
-		}
-
-		.flexed-list{
-			display:flex;
-			list-style-type: none;
-			justify-content: center;
-		}
-
-		.flexed-list li{
-			margin:auto;
-		}
-
-		.flexed-list h2{
-			display: inline;
-		}
-
-		::selection, ::-moz-selection{
-			background:none;
-			color:#ff5d86;
-		}
+	
 		
